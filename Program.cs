@@ -1,7 +1,13 @@
-﻿
-double numberA = new Random().Next(1, 10); // 1,2,3...
-Console.Write(numberA);
-double numberB = new Random().Next(1, 5);
-Console.WriteLine(numberB);
-double result = numberA + numberB;
-Console.WriteLine(result);
+﻿// See
+
+Console.Write("введите имя: ");
+string username = Console.ReadLine();
+
+if(username.ToLower() == "Маша"){
+    Console.WriteLine("Ура- это Маша");
+}
+else{
+    Console.WriteLine("Привет");
+    Console.WriteLine(username);
+}
+ 
